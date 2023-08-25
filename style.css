@@ -691,12 +691,6 @@ section .actualite .imbox img{
 
 
     
-    .esther{
-        display: flex;
-      }
-      .img1{
-        width: 300px;
-      }
       h1{
         font-size: 25px;
       }
@@ -833,4 +827,57 @@ section .actualite .imbox img{
     .l{
     padding-top: 30px;
     }
+    .nos{
+        
+    }
     
+    /* soulama */
+    .fottt img{
+        height: 200px;
+        width: 250px;
+        /* border-radius:15px; */
+        margin-top: 10%;
+    }
+    .fottt{
+        padding-left: 150px;
+    }
+    .div{
+        display: flex;
+        justify-content: space-around;
+        background: #f7f3f3;
+        height: 600px;
+       
+    }
+    .j{
+        margin-top: 5%;
+    }
+    .sect .h{
+        text-align: center;
+        color: rgb(2, 233, 233);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 2.5rem;
+    }
+    ul li{
+        list-style: none;
+        font-size: 14px;
+        color: #5a5555;
+    }
+    .j h1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.8rem;
+        color: rgb(0, 105, 167);
+    }
+    .j p{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;
+    }
+    .j button{
+        width: 130px;
+        height: 35px;
+        background: rgb(0, 105, 167);
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .j button:hover{
+        background: aqua;
+    }
