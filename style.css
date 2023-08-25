@@ -836,15 +836,15 @@ section .actualite .imbox img{
         height: 200px;
         width: 250px;
         /* border-radius:15px; */
-        margin-top: 10%;
     }
     .fottt{
         padding-left: 150px;
+        margin-top: 7%;
     }
     .div{
         display: flex;
         justify-content: space-around;
-        background: #f7f3f3;
+        /* background: #f3f3f3; */
         height: 600px;
        
     }
@@ -877,6 +877,7 @@ section .actualite .imbox img{
         background: rgb(0, 105, 167);
         border-radius: 10px;
         cursor: pointer;
+        align-items: center;
     }
     .j button:hover{
         background: aqua;
