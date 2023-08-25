@@ -839,14 +839,14 @@ section .actualite .imbox img{
     }
     .fottt{
         padding-left: 150px;
-        margin-top: 7%;
+        margin-top: 4%;
     }
     .div{
         display: flex;
         justify-content: space-around;
         /* background: #f3f3f3; */
         height: 600px;
-       
+    
     }
     .j{
         margin-top: 5%;
@@ -859,12 +859,12 @@ section .actualite .imbox img{
     }
     ul li{
         list-style: none;
-        font-size: 14px;
+        font-size: 10px;
         color: #5a5555;
     }
     .j h1{
         font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 1.8rem;
+        font-size: 1.2rem;
         color: rgb(0, 105, 167);
     }
     .j p{
@@ -878,6 +878,8 @@ section .actualite .imbox img{
         border-radius: 10px;
         cursor: pointer;
         align-items: center;
+        border: 1px solid white;
+        color: white;
     }
     .j button:hover{
         background: aqua;
