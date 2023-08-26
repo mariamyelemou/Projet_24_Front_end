@@ -1,3 +1,4 @@
+// carousel
 let slidesIndex = 1;
 showSlides(slidesIndex);
 
@@ -33,10 +34,12 @@ function showSlides(n) {
     dots[slidesIndex -1].classList.add('active');
 }
 
-   
-// let toggle = document.querySelector('.toggle');
-// let body = document.querySelector('body');
+// responsive nav
 
-// toggle.addEventListener('click', function() {
-//     body.classList.toggle('open');
-// })
+let toggle = document.querySelector('.toggle');
+let body = document.querySelector('body');
+
+toggle.addEventListener('click', function() {
+    body.classList.toggle('open');
+    
+}) 
