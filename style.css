@@ -1095,10 +1095,38 @@ section .actualite .imbox img{
     
     @media  (max-width: 1000px){
         .na4 {
-            width: 60%;
+            width: 75%;
             
         }
-        .
+        .na4 input{
+            /* padding: 3px 10px; */
+            width: 130px;
+        }
+        .na4 select{
+            /* padding: 3px 10px; */
+            width: 130px;
+        }
+        .na4 button{
+            /* padding: 3px 10px; */
+            width: 130px;
+        }
+    }
+    
+    @media  (max-width: 745px){
+        
+        .na4 input{
+            width: 100px;
+        }
+        .na4 select{
+            width: 100px;
+        }
+        .na4 button{
+            width: 100px;
+        }
+        .box .imbox{
+            height: 100px;
+            width: 100px;
+        } 
     }
     
     /* header responssive */
