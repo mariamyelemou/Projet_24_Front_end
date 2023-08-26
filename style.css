@@ -210,9 +210,13 @@ p{
 }
 
 .actualite{
- margin-left: 100px;
+ /* padding-left: 100px; */
+ /* padding-right: 100px; */
  display: flex;
+ /* justify-content: space-around; */
+ 
 }
+
 
 section .actualite .imbox img{
     width: 700px;
@@ -757,7 +761,19 @@ section .actualite .imbox img{
         margin-left: 360px;
     }
 
+.farr p{
+    text-align: center;
+    font-size: 50px;
+}
 
+.farr h1{
+    text-align: center;
+    color: darkcyan ;
+}
+.photo h1{
+    color: deepskyblue;
+    font-size: 40px;
+}
 
 
     /* css bienvenue */
@@ -913,7 +929,8 @@ section .actualite .imbox img{
     @media (max-width: 1268px){
         .div{
             height: 900px;
-            flex-direction: column;
+            /* flex-direction: column; */
+        
         }
         .divv{
             height: 900px;
@@ -921,7 +938,7 @@ section .actualite .imbox img{
         }
         .j{
             /* padding-left: 150px; */
-            text-align: center;
+            /* text-align: center; */
         }
         .fottt{
             text-align: center;
@@ -932,9 +949,32 @@ section .actualite .imbox img{
         .divv .fottt{
             margin-left: 0;
         }
+        header{
+            margin-top: 0;
+        }
+        
         
     }
     
+    @media (max-width: 1200px){
+        .divv{
+          padding-left: 30px;
+          padding-right: 30px;
+            
+        }
+        
+    }
+    @media (max-width: 1157px){
+        .divv{
+          padding-left: 10px;
+          padding-right: 10px;
+            
+        }
+        /* .divv .fottt img{
+            height: 150px;
+            width: 200px;
+        } */
+    }
     
     @media  (max-width: 1065px) {
 
@@ -981,7 +1021,7 @@ section .actualite .imbox img{
         top: 0;
         left: 0;
         width: 100%;
-        height: 100vh;
+        height: 105vh;
         background-color: #000;
         flex-direction: column;
         padding: 2rem;
@@ -1002,16 +1042,21 @@ section .actualite .imbox img{
       
       
       header{
-        min-height: 200vh;
+        min-height: 100vh;
     }
       
       .na4{
-          height: 80vh;
-          padding-left: 0px;
+          height: 20vh;
           padding-right: 10px;
-          margin-top: 50px; 
-          width: 100%;
-          margin-left: 0;
+          /* margin-top: 50px;  */
+          /* width: 100%; */
+          margin-left: 100px;
+          /* margin-right: 100px; */
+      }
+      .box .imbox{
+          /* display: none; */
+          height: 300px;
+          width: 300px;
       } 
       
       
@@ -1024,8 +1069,36 @@ section .actualite .imbox img{
     .na2{
         padding-top: 0px;
     } 
+    .fottt img{
+        height: 120px;
+        width: 150px;
+    }
+    .div .fottt{
+        margin-top: 15%;
+    }
+    .divv{
+       padding-left: 50px; 
+       padding-right: 50px;
+    }
+    .actualite h4{
+        font-size: 1.2rem;
+        padding-top: 100px;
+    }
+    .actualite{
+        /* padding-left: 100px; */
+        padding-right: 100px;
+        flex-direction: column-reverse;
+    }
        
         
+    }
+    
+    @media  (max-width: 1000px){
+        .na4 {
+            width: 60%;
+            
+        }
+        .
     }
     
     /* header responssive */
@@ -1086,8 +1159,13 @@ section .actualite .imbox img{
     .row{
         flex-direction: column;
     }
-    .j{
+    .j ul li{
+        
         text-align: start;
+        margin-left: 15px;
+    }
+    .divv .div .j{
+        /* text-align: center; */
     }
     body{
         /* background: #000; */
@@ -1095,17 +1173,19 @@ section .actualite .imbox img{
     }
      .footer{
          flex-direction: column;
+         padding: 10px;
          
+     }
+     .na3{
+         flex-direction: column;
+         /* display: none; */
      }
      .na3 .aj {
          margin-top: 30%;
      }
      .na3 a{
-         padding-left: 0;
+         /* padding-left: 0; */
          text-align: center;
-     }
-     .job1{
-         
      }
      /* .na3 job2{
          margin-left: 0;
@@ -1119,12 +1199,115 @@ section .actualite .imbox img{
      .recru{
          font-size: 1rem;
      }
+     .na2 h5{
+         /* text-align: center; */
+         margin-top: 25%;
+         padding-left: 15px;
+     }
      .h3{
         
      }
      header{
          margin-top: 0;
-         
+         min-height: 105vh;
+         /* width: 300px; */
      }
-    
+     section .omni{
+         /* width: 300px; */
+     }
+     .carou{
+         display: none;
+     }
+     .fottt img{
+         border-radius: 15px;
+         /* width: 300px; */
+     }
+     .disp{
+         display: none;
+     }
+    .ja a{
+        margin-left: -30px;
     }
+    .aj a{
+        margin-left: -30px;
+    }
+    .sect .h{
+        font-size: 1.5rem;
+    }
+    .num{
+        font-size: 1.5rem;
+    }
+    .pro{
+        font-size: 1.5rem;
+    }
+    section .photo h1{
+        font-size: 1rem;
+    }
+    .actualite h4{
+        text-align: center;
+    }
+    .logo-box{
+        height: 2.5rem;
+        width: 6rem;
+        margin-left: 10px;
+    }
+    .une{
+        font-size: 18px;
+    }
+    .deux{
+        font-size: 18px;
+    }
+    .trois{
+        font-size: 18px;
+    }
+    .quatre{
+        font-size: 18px;
+    }
+    .cinq{
+        font-size: 18px;
+    }
+    .six{
+        font-size: 18px;
+    }
+    .na2 h2{
+        font-size: 1.3rem;
+    }
+    .toggle{
+        font-size: 20px;
+    }
+    .actualite h4{
+        font-size: .8rem;
+    }
+    
+    .nav1 ul{
+        padding: 0%;
+    }
+    .farr p{
+        font-size: 1rem;
+    }
+   
+    .farr h1{
+        font-size: 1rem;
+    }
+    .divv{
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .img-footer img{
+        text-align: center;
+        }
+    }
+    .res{
+        font-size: 15px;
+    }
+    
+    @media  (max-width: 295px) {
+        
+        section .actualite .imbox img{
+            width: 250px;
+        }
+    }
+    
+    
