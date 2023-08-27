@@ -6,6 +6,26 @@
     /* background: #fff; */
 }
 
+.fran{
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+    padding-left: 40px;
+}
+.auff{
+    width: 150px;
+    height: 40px;
+    /* border-radius: 5px; */
+    background-color: white;
+}
+.offf{
+    margin-top: 20px;
+    padding-right: 50px;
+}
+.onglets{
+    margin-left: 50px;
+}
+
 header{
   
        
@@ -58,20 +78,20 @@ section .para h4{
 .logo-box{
     display: flex;
     font-size: 50px;
-    clip-path: polygon(0% 20%,
+    /* clip-path: polygon(0% 20%,
     60% 20%,
     60% 0%,
    100% 50%,
     60% 100%,
     60% 80%,
-     0% 80%);
-     background-color: #fff;
+     0% 80%); */
+     /* background-color: #fff; */
      justify-content: center;
      align-items: center;
      width: 8rem;
-     margin-left: 30px;
+     /* margin-left: 30px; */
      height: 4rem;
-     margin-top: 20px;
+     /* margin-top: 20px; */
     
 }
 .logo-box .une .deux .trois .quatre .cinq .six{
@@ -599,6 +619,7 @@ section .actualite .imbox img{
   
     text-decoration: none;
     margin-top: 50px; 
+    margin-left: 10px;
     /* padding-left: 50px;  */
 }
 .na3{
@@ -610,18 +631,20 @@ section .actualite .imbox img{
    padding-bottom: 5px;
    margin-bottom: 5px;
    margin-top: 50px;
-   padding-left: 102px;
+   padding-left: 18%;
 }
 
 .na4{
+    display: flex;
+    /* justify-content: space-around; */
     background-color: #fff;
-    /* height: 15vh; */
+    height: 15vh;
     padding-top: 30px;
     width: 900px;
     text-align: center;
-    /* padding-left: 400px; */
+    /* padding-left: 20px; */
     border-radius: 10px;
-    margin-left: 100px;
+    margin-left: 255px;
     /* margin-right: 100px; */
     /* padding: 40px 20px; */
     
@@ -631,16 +654,28 @@ section .actualite .imbox img{
     padding: 10px 25px;
     border-radius: 5px;
     margin-bottom: 30px;
+    width: 200px;
+    height: 45px;
+    margin-left: 10px;
+    /* border: 1px solid #ddd; */
+
 }
 
 .na4 select{
     padding: 10px 25px;
     border-radius: 5px;
+    width: 200px;
+    height: 45px;
+    margin-left: 10px;
 }
 
 .na4 button{
-    padding: 10px 70px;
+    /* padding: 10px 70px; */
     border-radius: 5px;
+    width: 200px;
+    height: 45px;
+    margin-left: 10px;
+    /* border: 1px solid #ddd; */
 }
 
 .sea{
@@ -992,7 +1027,7 @@ section .actualite .imbox img{
         
         
       .logo-box {
-        position: relative;
+        /* position: relative; */
         z-index: 20;
         margin-top: 24px;
         

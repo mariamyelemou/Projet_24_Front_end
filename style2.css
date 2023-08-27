@@ -101,4 +101,98 @@
     background: #717171;
 }
 
+/* liste djob */
 
+.list{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 1px solid #ddd;
+    /* flex-basis: 30%; */
+    height: 300px;
+    padding-top: 1%;
+    border-radius: 10px;
+}
+
+.t2 img{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid#ddd;
+}
+h1{
+    padding-left: 230px;
+}
+.t1 input{
+    border-radius: 10px !important;
+    
+}
+.dd input{
+    width: 100px;
+    border-radius: 50px;
+    text-align: center;
+    border: 1px solid#ddd;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.t1 select{
+    border: 1px solid#ddd;
+    font-size: 12px;
+    height: 30px;
+}
+.t1{
+    border: 1px solid #ddd;
+    height: 260px;
+    width: 200px;
+    padding-left: 20px;
+}
+.t2{
+    
+}
+.qq{
+    width: 350px;
+    height: 450px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.vvv{
+    margin-left: 240px;
+}
+.bt{
+    width: 130px;
+    height: 35px;
+    border: none;
+    background: rgb(241, 35, 35);
+    color: white;
+    
+}
+.dd{
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+}
+.da{
+    border: 1px solid #ddd;
+    height: 75px;
+    width: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.posi{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background: rgb(27, 27, 247);
+    color: white;
+    padding-top: 20px;
+    z-index: 1;
+    left: 40%;
+    bottom: 117px;
+    border-radius: 5px;
+}
